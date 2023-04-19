@@ -1,1 +1,177 @@
+1
+12
+123
+1234
+12345
 
+
+                         # Program in Python
+
+
+n=int(input("Enter the number : "))
+for i in range (1,n+1):
+    for j in range(1,i+1):
+        print(j,end='')
+    print()
+
+
+
+
+
+
+
+
+1
+22
+333
+4444
+55555
+
+
+                         # Program in Python
+    
+    
+    n=int(input("Enter the number : "))
+for i in range (1,n+1):
+    for j in range(i):
+        print(i,end='')
+    print()
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+
+
+                # Program to check whether it is Palindrome or not
+
+num=int(input("Enter the number that is to be verified for Palindrome : "))
+duplicate=num
+rev=0
+while(num):
+    rem = num%10
+    rev=rev*10+rem
+    num=num//10
+if rev==duplicate:
+    print(duplicate,"is a palindrome")
+else:
+    print(duplicate,"is not a palindrome")
+    
+    
+    
+    
+    
+    
+    
+    
+        #               Armstrong number
+        
+        
+n=int(input("Enter the number that is to be verified for Armstrong number : "))
+sum=0
+temp=n
+while (n >0):
+  rem = n % 10;
+  sum = (sum) + (rem * rem * rem);
+  n = n // 10;
+if temp == sum:
+  print(temp,"armstrong number")
+else:
+  print(temp,"not a armstrong number")
+        
+    
+    
+  
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 1.Find the area of triangle,square, rectangle
+ 2.Swap three numbers in ascendig order
+ 
+ 
+ 
+ 
+#                1. Finding the area of the triangle, square, and rectangle
+ 
+ a=int(input("To find the area of the triangle type 1\nfor finding the area of the square type 2\nTo find the area of the rectangle type 3\n\n          "))
+if a==1:
+    print("Enter the dimensions of the triangle :")
+    base=int(input("Enter the breadth of the tiangle : "))
+    height=int(input("Enter the height of the triangle : "))
+    print("Area of the triangle is :",base*height/2)
+elif a==2:
+    side=int(input("Enter the Suare side value : "))
+    print("Area of the square :",side*side)
+elif a==3:
+    sideo=int(input("Enter the rectangle length value : ",))
+    sideoo=int(input("Enter the rectangle breadth value : ",))
+    print("Area of the rectangle :",sideo*sideoo)
+else:
+    print("Wrong option is opted by you")
+ 
+ 
+ 
+ 
+ 
+ 
+                     #       2. 2.Swap the three numbers in ascendig order
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+                    #         3.Fibanocci series
+
+ 
+ #    how many numbers need to be printed in series
+
+
+num=int(input("Enter the range of fibonacci series expansion : "))
+a=0
+b=1
+
+if num<1:
+    print("Enter a valid number")
+else:
+    print(a,end=" ")
+    print(b,end=" ")
+    for i in range (num - 2):
+        c=a+b
+        print(c,end=" ")
+        a=b
+        b=c
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
+ 
